@@ -212,18 +212,21 @@ textarea {
     #what-i-do-description{
         padding: 20px;
     }
-    footer, .about{
-        padding: 10px;
+    footer{
+       padding: 5px;
+    }
+    .about{
+         padding: 10px;
     }
     .btn-primary{
         margin-bottom: 15px;
     }
     .footer-column{
-        width: 100%;
+        width: 70%;
     }
     .contact input[type="text"], .contact input[type="email"],
 textarea{
-    width: 80%;
+    width: 60%;
 }
 .profile-pic{
     padding: 0px;
@@ -243,4 +246,42 @@ textarea{
     .btn-primary{
         margin-bottom: 15px;
     }
+
+    nav, nav > ul, .banner, .skills-container, .resume-container, .footer-column, .about-info-container{
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 10px;
+    }
+    .banner .profile-pic{
+       width: 100%; 
+    }
+    .banner, 
+    #what-i-do-description{
+        padding: 20px;
+    }
+    footer{
+       padding: 5px;
+    }
+    .about{
+         padding: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .footer-column{
+        width: 70%;
+    }
+    .contact input[type="text"], .contact input[type="email"],
+textarea{
+    width: 60%;
+}
+.profile-pic{
+    padding: 0px;
+}
+.banner .profile-pic{
+    width: 100%;
+}
+
+
 }
